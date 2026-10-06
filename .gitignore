@@ -1,0 +1,24 @@
+# Dependências e arquivos de build
+node_modules/
+dist/
+*.tsbuildinfo
+/vite.config.js
+/vite.config.d.ts
+
+# Configuração local e segredos
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# Logs e cobertura
+*.log
+coverage/
+
+# Arquivos do sistema e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+~$*.docx

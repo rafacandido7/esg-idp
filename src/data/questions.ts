@@ -5,11 +5,11 @@ export const questions: Question[] = [
     "id": 1,
     "prompt": "Qual instrumento de política climática introduzido pelo Protocolo de Quioto (1997) permitiu a países desenvolverem projetos de redução de emissões e comercializarem créditos de carbono?",
     "options": [
-      "Pagamento por Serviços Ambientais (PS",
-      "",
+      "Pagamento por Serviços Ambientais (PSA)",
       "Certificação ISO 14001",
       "Mecanismo de Desenvolvimento Limpo (MDL)",
-      "Taxa de Carbono Canadense"
+      "Taxa de Carbono Canadense",
+      "RenovaBio"
     ],
     "answer": "c"
   },
@@ -51,7 +51,7 @@ export const questions: Question[] = [
   },
   {
     "id": 5,
-    "prompt": "Associe o marco histórico às suas contribuições:\nConferência de Estocolmo (1972)\nRelatório Brundtland (1987)\nRio+20 (2012)\nAcordo de Paris (2015)\n( ) Consolidou o conceito de Economia Verde como paradigma global.( ) Introduziu o conceito de Desenvolvimento Sustentável.( ) Estabeleceu metas nacionais voluntárias para redução de emissões.( ) Impulsionou legislações ambientais em escala nacional.",
+    "prompt": "Associe o marco histórico às suas contribuições:\n1. Conferência de Estocolmo (1972)\n2. Relatório Brundtland (1987)\n3. Rio+20 (2012)\n4. Acordo de Paris (2015)\n( ) Consolidou o conceito de Economia Verde como paradigma global.\n( ) Introduziu o conceito de Desenvolvimento Sustentável.\n( ) Estabeleceu metas nacionais voluntárias para redução de emissões.\n( ) Impulsionou legislações ambientais em escala nacional.",
     "options": [
       "2, 1, 3, 4",
       "1, 3, 4, 2",
@@ -123,13 +123,13 @@ export const questions: Question[] = [
   },
   {
     "id": 11,
-    "prompt": "O termo Green IT (Tecnologia da Informação Verd",
+    "prompt": "O termo Green IT (Tecnologia da Informação Verde) refere-se a:",
     "options": [
-      "refere-se a:",
       "Tecnologias aplicadas apenas ao setor agrícola.",
       "Uso sustentável de hardware e software para reduzir impactos ambientais.",
       "Estratégia de marketing para startups.",
-      "Energia renovável aplicada somente à mineração."
+      "Energia renovável aplicada somente à mineração.",
+      "Inclusão digital em comunidades isoladas."
     ],
     "answer": "b"
   },
@@ -159,7 +159,7 @@ export const questions: Question[] = [
   },
   {
     "id": 14,
-    "prompt": "Associe os conceitos às suas descrições:\nEconomia Verde\nESG\nGreen IT\nEconomia Circular\n( ) Integra critérios ambientais, sociais e de governança na estratégia empresarial.( ) Uso sustentável de hardware, software e infraestrutura digital.( ) Modelo que busca conciliar crescimento econômico com inclusão social e preservação ambiental.( ) Prolonga o ciclo de vida de produtos, reduzindo resíduos e extração de recursos naturais.",
+    "prompt": "Associe os conceitos às suas descrições:\n1. Economia Verde\n2. ESG\n3. Green IT\n4. Economia Circular\n( ) Integra critérios ambientais, sociais e de governança na estratégia empresarial.\n( ) Uso sustentável de hardware, software e infraestrutura digital.\n( ) Modelo que busca conciliar crescimento econômico com inclusão social e preservação ambiental.\n( ) Prolonga o ciclo de vida de produtos, reduzindo resíduos e extração de recursos naturais.",
     "options": [
       "2, 1, 3, 4",
       "1, 3, 4, 2",
@@ -171,7 +171,7 @@ export const questions: Question[] = [
   },
   {
     "id": 15,
-    "prompt": "Associe o marco histórico à sua principal contribuição:\nConferência de Estocolmo (1972)\nRelatório Brundtland (1987)\nRio+20 (2012)\nAcordo de Paris (2015)\n( ) Introdução do conceito de Desenvolvimento Sustentável.( ) Estabelecimento de metas globais voluntárias de redução de emissões.( ) Consolidação do paradigma da Economia Verde.( ) Impulso inicial para legislações ambientais nacionais.",
+    "prompt": "Associe o marco histórico à sua principal contribuição:\n1. Conferência de Estocolmo (1972)\n2. Relatório Brundtland (1987)\n3. Rio+20 (2012)\n4. Acordo de Paris (2015)\n( ) Introdução do conceito de Desenvolvimento Sustentável.\n( ) Estabelecimento de metas globais voluntárias de redução de emissões.\n( ) Consolidação do paradigma da Economia Verde.\n( ) Impulso inicial para legislações ambientais nacionais.",
     "options": [
       "2, 1, 3, 4",
       "1, 3, 4, 2",
@@ -195,7 +195,7 @@ export const questions: Question[] = [
   },
   {
     "id": 17,
-    "prompt": "Avalie as sentenças sobre tecnologia e ESG:\n( ) Blockchain pode aumentar a rastreabilidade de cadeias agroindustriais.( ) A inteligência artificial não tem papel relevante em sustentabilidade.( ) Cadeias de valor livres de desmatamento na União Europeia impactam exportadores brasileiros.( ) A exclusão digital não representa risco social para empresas de tecnologia.( ) Smart grids são exemplo de inovação para eficiência energética.",
+    "prompt": "Avalie as sentenças sobre tecnologia e ESG:\n( ) Blockchain pode aumentar a rastreabilidade de cadeias agroindustriais.\n( ) A inteligência artificial não tem papel relevante em sustentabilidade.\n( ) Cadeias de valor livres de desmatamento na União Europeia impactam exportadores brasileiros.\n( ) A exclusão digital não representa risco social para empresas de tecnologia.\n( ) Smart grids são exemplo de inovação para eficiência energética.",
     "options": [
       "V, F, V, F, F",
       "F, V, V, F, V",
@@ -291,7 +291,7 @@ export const questions: Question[] = [
   },
   {
     "id": 25,
-    "prompt": "Associe as empresas às suas iniciativas sustentáveis:\nGoogle\nMicrosoft\nApple\nNubank\n( ) Programa para ser carbono negativo até 2030.( ) Data centers movidos 100% a energia renovável desde 2017.( ) Economia circular com robôs que desmontam iPhones.( ) Neutralidade de carbono e inclusão financeira digital.",
+    "prompt": "Associe as empresas às suas iniciativas sustentáveis:\n1. Google\n2. Microsoft\n3. Apple\n4. Nubank\n( ) Programa para ser carbono negativo até 2030.\n( ) Data centers movidos 100% a energia renovável desde 2017.\n( ) Economia circular com robôs que desmontam iPhones.\n( ) Neutralidade de carbono e inclusão financeira digital.",
     "options": [
       "2, 1, 3, 4",
       "1, 3, 4, 2",
@@ -315,19 +315,19 @@ export const questions: Question[] = [
   },
   {
     "id": 27,
-    "prompt": "Associe o conceito ao instrumento econômico correspondente:\nImposto sobre carbono\nComércio de emissões\nPagamento por Serviços Ambientais (PS",
+    "prompt": "Associe o conceito ao instrumento econômico correspondente:\n1. Imposto sobre carbono\n2. Comércio de emissões\n3. Pagamento por Serviços Ambientais (PSA)\n4. Mercado voluntário de carbono\n( ) Transações voluntárias de créditos sem regulação estatal.\n( ) Pagamento direto por práticas de conservação ambiental.\n( ) Estabelece teto de emissões e permite negociar permissões.\n( ) Cobre emissões com taxa financeira para poluidores.",
     "options": [
-      "Mercado voluntário de carbono ( ) Transações voluntárias de créditos sem regulação estatal.( ) Pagamento direto por práticas de conservação ambiental.( ) Estabelece teto de emissões e permite negociar permissões.( ) Cobre emissões com taxa financeira para poluidores.",
       "2, 1, 3, 4",
       "1, 3, 4, 2",
       "4, 3, 2, 1",
-      "2, 4, 3, 1"
+      "2, 4, 3, 1",
+      "2, 3, 4, 1"
     ],
     "answer": "c"
   },
   {
     "id": 28,
-    "prompt": "Avalie as afirmações sobre Green IT e sustentabilidade:\n( ) Softwares eficientes podem reduzir o consumo energético de data centers.( ) A virtualização e o cloud computing permitem melhor aproveitamento de recursos.( ) O descarte inadequado de e-waste não representa riscos ambientais significativos.( ) A economia circular aplicada ao setor de TI contribui para menor pressão sobre mineração.( ) A inteligência artificial não pode apoiar o monitoramento ambiental.",
+    "prompt": "Avalie as afirmações sobre Green IT e sustentabilidade:\n( ) Softwares eficientes podem reduzir o consumo energético de data centers.\n( ) A virtualização e o cloud computing permitem melhor aproveitamento de recursos.\n( ) O descarte inadequado de e-waste não representa riscos ambientais significativos.\n( ) A economia circular aplicada ao setor de TI contribui para menor pressão sobre mineração.\n( ) A inteligência artificial não pode apoiar o monitoramento ambiental.",
     "options": [
       "V, F, V, V, F",
       "F, V, V, F, V",
@@ -351,7 +351,7 @@ export const questions: Question[] = [
   },
   {
     "id": 30,
-    "prompt": "Sobre os desafios da governança climática global, é correto afirmar:\n( ) O Acordo de Paris não prevê mecanismos de monitoramento.( ) A cooperação internacional enfrenta tensões entre países desenvolvidos e em desenvolvimento.( ) Os mecanismos de financiamento climático são claros e plenamente aplicados.( ) A responsabilidade comum, mas diferenciada, é princípio fundamental das negociações.( ) Empresas multinacionais estão fora da pressão por metas de redução de emissões.",
+    "prompt": "Sobre os desafios da governança climática global, é correto afirmar:\n( ) O Acordo de Paris não prevê mecanismos de monitoramento.\n( ) A cooperação internacional enfrenta tensões entre países desenvolvidos e em desenvolvimento.\n( ) Os mecanismos de financiamento climático são claros e plenamente aplicados.\n( ) A responsabilidade comum, mas diferenciada, é princípio fundamental das negociações.\n( ) Empresas multinacionais estão fora da pressão por metas de redução de emissões.",
     "options": [
       "V, F, V, V, F",
       "F, V, F, V, F",
@@ -495,7 +495,7 @@ export const questions: Question[] = [
   },
   {
     "id": 42,
-    "prompt": "Associe empresas e práticas:\nGoogle\nMicrosoft\nApple\nAmazon\n( ) Robôs para desmontar iPhones.( ) Carbono negativo até 2030.( ) Energia 100% renovável em data centers.( ) Investimentos em energia solar para AWS.",
+    "prompt": "Associe empresas e práticas:\n1. Google\n2. Microsoft\n3. Apple\n4. Amazon\n( ) Robôs para desmontar iPhones.\n( ) Carbono negativo até 2030.\n( ) Energia 100% renovável em data centers.\n( ) Investimentos em energia solar para AWS.",
     "options": [
       "3, 2, 1, 4",
       "1, 3, 4, 2",
@@ -507,7 +507,7 @@ export const questions: Question[] = [
   },
   {
     "id": 43,
-    "prompt": "Associe indicadores a funções:\nPUE\nCarbon Intensity\nWUE\nLCA\n( ) Consumo de água em data centers.( ) Intensidade de carbono por energia gerada.( ) Eficiência energética em TI.( ) Avaliação de ciclo de vida de produtos.",
+    "prompt": "Associe indicadores a funções:\n1. PUE\n2. Carbon Intensity\n3. WUE\n4. LCA\n( ) Consumo de água em data centers.\n( ) Intensidade de carbono por energia gerada.\n( ) Eficiência energética em TI.\n( ) Avaliação de ciclo de vida de produtos.",
     "options": [
       "2, 1, 3, 4",
       "1, 3, 4, 2",
@@ -519,7 +519,7 @@ export const questions: Question[] = [
   },
   {
     "id": 44,
-    "prompt": "Associe termos:\nGreen IT\nEconomia Circular\nDescarbonização\nESG\n( ) Modelo de gestão sustentável de TI.( ) Redução progressiva de emissões.( ) Governança, ambiente e social.( ) Reuso e reciclagem.",
+    "prompt": "Associe termos:\n1. Green IT\n2. Economia Circular\n3. Descarbonização\n4. ESG\n( ) Modelo de gestão sustentável de TI.\n( ) Redução progressiva de emissões.\n( ) Governança, ambiente e social.\n( ) Reuso e reciclagem.",
     "options": [
       "1, 4, 2, 3",
       "1, 3, 4, 2",
@@ -527,7 +527,7 @@ export const questions: Question[] = [
       "2, 4, 3, 1",
       "2, 3, 4, 1"
     ],
-    "answer": "a"
+    "answer": "b"
   },
   {
     "id": 45,
@@ -543,7 +543,7 @@ export const questions: Question[] = [
   },
   {
     "id": 46,
-    "prompt": "Associe problemas ambientais e soluções:\nEmissões de CO₂\nDesperdício de água\nE-waste\nDesmatamento\n( ) Programas de reciclagem de eletrônicos.( ) Certificação e rastreabilidade florestal.( ) Energias renováveis.( ) Reuso de água em data centers.",
+    "prompt": "Associe problemas ambientais e soluções:\n1. Emissões de CO₂\n2. Desperdício de água\n3. E-waste\n4. Desmatamento\n( ) Programas de reciclagem de eletrônicos.\n( ) Certificação e rastreabilidade florestal.\n( ) Energias renováveis.\n( ) Reuso de água em data centers.",
     "options": [
       "2, 1, 3, 4",
       "1, 3, 4, 2",
@@ -555,7 +555,7 @@ export const questions: Question[] = [
   },
   {
     "id": 47,
-    "prompt": "Associe conceitos a práticas empresariais:\nTrabalho remoto\nAutomação\nIA Ética\nInclusão digital\n( ) Capacitação em ciência de dados.( ) Redução de deslocamentos urbanos.( ) Evitar vieses algorítmicos.( ) Substituição de funções operacionais.",
+    "prompt": "Associe conceitos a práticas empresariais:\n1. Trabalho remoto\n2. Automação\n3. IA Ética\n4. Inclusão digital\n( ) Capacitação em ciência de dados.\n( ) Redução de deslocamentos urbanos.\n( ) Evitar vieses algorítmicos.\n( ) Substituição de funções operacionais.",
     "options": [
       "4, 1, 3, 2",
       "1, 3, 4, 2",
@@ -567,7 +567,7 @@ export const questions: Question[] = [
   },
   {
     "id": 48,
-    "prompt": "Associe legislações e impactos:\nLGPD\nLBI\nAcordo de Paris\nDiretiva Europeia de Reporte Sustentável\n( ) Inclusão digital obrigatória em plataformas.( ) Proteção de dados pessoais.( ) Neutralidade climática.( ) Transparência corporativa em ESG.",
+    "prompt": "Associe legislações e impactos:\n1. LGPD\n2. LBI\n3. Acordo de Paris\n4. Diretiva Europeia de Reporte Sustentável\n( ) Inclusão digital obrigatória em plataformas.\n( ) Proteção de dados pessoais.\n( ) Neutralidade climática.\n( ) Transparência corporativa em ESG.",
     "options": [
       "2, 1, 3, 4",
       "1, 3, 4, 2",
@@ -591,7 +591,7 @@ export const questions: Question[] = [
   },
   {
     "id": 50,
-    "prompt": "Verdadeiro ou Falso\n( ) A economia verde prioriza apenas crescimento econômico.( ) Green IT busca eficiência energética.( ) O PUE mede eficiência de data centers.( ) O S do ESG trata apenas de igualdade de gênero.( ) O mercado de carbono pode ser regulado ou voluntário.",
+    "prompt": "Verdadeiro ou Falso\n( ) A economia verde prioriza apenas crescimento econômico.\n( ) Green IT busca eficiência energética.\n( ) O PUE mede eficiência de data centers.\n( ) O S do ESG trata apenas de igualdade de gênero.\n( ) O mercado de carbono pode ser regulado ou voluntário.",
     "options": [
       "V, F, V, V, F",
       "F, V, V, F, V",
@@ -603,7 +603,7 @@ export const questions: Question[] = [
   },
   {
     "id": 51,
-    "prompt": "Verdadeiro ou Falso\n( ) Cloud computing sempre gera mais emissões que servidores locais.( ) O ESG é critério estratégico em grandes empresas.( ) Economia circular prolonga ciclo de vida de produtos.( ) O Acordo de Paris é juridicamente vinculante em suas metas nacionais.( ) A transparência é parte do pilar de governança em ESG.",
+    "prompt": "Verdadeiro ou Falso\n( ) Cloud computing sempre gera mais emissões que servidores locais.\n( ) O ESG é critério estratégico em grandes empresas.\n( ) Economia circular prolonga ciclo de vida de produtos.\n( ) O Acordo de Paris é juridicamente vinculante em suas metas nacionais.\n( ) A transparência é parte do pilar de governança em ESG.",
     "options": [
       "V, F, V, V, F",
       "F, V, V, F, V",
@@ -615,7 +615,7 @@ export const questions: Question[] = [
   },
   {
     "id": 52,
-    "prompt": "Verdadeiro ou Falso\n( ) A UE lidera programas de descarbonização com o Green Deal.( ) O Brasil tem matriz energética mais renovável que a média mundial.( ) O mercado voluntário de carbono é obrigatório.( ) A reciclagem de e-waste é um desafio crescente.( ) ODS 13 trata de Ação Climática.",
+    "prompt": "Verdadeiro ou Falso\n( ) A UE lidera programas de descarbonização com o Green Deal.\n( ) O Brasil tem matriz energética mais renovável que a média mundial.\n( ) O mercado voluntário de carbono é obrigatório.\n( ) A reciclagem de e-waste é um desafio crescente.\n( ) ODS 13 trata de Ação Climática.",
     "options": [
       "V, F, V, V, F",
       "F, V, V, F, V",
@@ -627,7 +627,7 @@ export const questions: Question[] = [
   },
   {
     "id": 53,
-    "prompt": "Verdadeiro ou Falso\n( ) Automação não afeta empregos tradicionais.( ) Trabalho remoto reduz emissões de transporte.( ) Viés algorítmico é desafio em IA.( ) A IBM e a TOTVS promovem reskilling.( ) A LGPD trata de créditos de carbono.",
+    "prompt": "Verdadeiro ou Falso\n( ) Automação não afeta empregos tradicionais.\n( ) Trabalho remoto reduz emissões de transporte.\n( ) Viés algorítmico é desafio em IA.\n( ) A IBM e a TOTVS promovem reskilling.\n( ) A LGPD trata de créditos de carbono.",
     "options": [
       "V, F, V, V, F",
       "F, V, V, F, V",
@@ -639,7 +639,7 @@ export const questions: Question[] = [
   },
   {
     "id": 54,
-    "prompt": "Verdadeiro ou Falso\n( ) Cadeias de valor sustentáveis exigem rastreabilidade.( ) O PUE ideal é 1,0.( ) Data centers não usam água em resfriamento.( ) Economia verde é alinhada à justiça social.( ) ESG é modismo passageiro.",
+    "prompt": "Verdadeiro ou Falso\n( ) Cadeias de valor sustentáveis exigem rastreabilidade.\n( ) O PUE ideal é 1,0.\n( ) Data centers não usam água em resfriamento.\n( ) Economia verde é alinhada à justiça social.\n( ) ESG é modismo passageiro.",
     "options": [
       "V, F, V, V, F",
       "F, V, V, F, V",
@@ -651,10 +651,10 @@ export const questions: Question[] = [
   },
   {
     "id": 55,
-    "prompt": "Verdadeiro ou Falso\n( ) A neutralidade de carbono significa zerar totalmente emissões.( ) A Oracle, AWS e Google investem em energia renovável para data centers.( ) O Brasil não tem políticas públicas voltadas a biocombustíveis.( ) O ESG integra os três pilares: ambiental, social e relações governamentais.( ) Economia verde é alinhada à justiça social.",
+    "prompt": "Verdadeiro ou Falso\n( ) A neutralidade de carbono significa zerar totalmente emissões.\n( ) A Oracle, AWS e Google investem em energia renovável para data centers.\n( ) O Brasil não tem políticas públicas voltadas a biocombustíveis.\n( ) O ESG integra os três pilares: ambiental, social e relações governamentais.\n( ) Economia verde é alinhada à justiça social.",
     "options": [
       "V, F, V, V, F",
-      "F, V, F, V, F",
+      "F, V, F, F, V",
       "V, V, F, F, V",
       "F, V, V, V, F",
       "V, F, V, F, V"
@@ -723,7 +723,7 @@ export const questions: Question[] = [
   },
   {
     "id": 61,
-    "prompt": "Associe tecnologias emergentes:\nBlockchain\nIoT\nIA Regenerativa\nHidrogênio Verde\n( ) Eletrólise da água com energia limpa.( ) Monitoramento de consumo em tempo real.( ) Registro imutável de transações.( ) Restauração de ecossistemas.",
+    "prompt": "Associe tecnologias emergentes:\n1. Blockchain\n2. IoT\n3. IA Regenerativa\n4. Hidrogênio Verde\n( ) Eletrólise da água com energia limpa.\n( ) Monitoramento de consumo em tempo real.\n( ) Registro imutável de transações.\n( ) Restauração de ecossistemas.",
     "options": [
       "2, 1, 3, 4",
       "1, 3, 4, 2",
@@ -735,7 +735,7 @@ export const questions: Question[] = [
   },
   {
     "id": 62,
-    "prompt": "Associe riscos digitais:\nViés Algorítmico\nPrivacidade\nAutomação\nInclusão digital\n( ) Exige infraestrutura de acesso.( ) Reforço de preconceitos históricos.( ) Desafios em LGPD.( ) Substituição de funções tradicionais.",
+    "prompt": "Associe riscos digitais:\n1. Viés Algorítmico\n2. Privacidade\n3. Automação\n4. Inclusão digital\n( ) Exige infraestrutura de acesso.\n( ) Reforço de preconceitos históricos.\n( ) Desafios em LGPD.\n( ) Substituição de funções tradicionais.",
     "options": [
       "4, 3, 2, 1",
       "1, 3, 4, 2",
@@ -747,7 +747,7 @@ export const questions: Question[] = [
   },
   {
     "id": 63,
-    "prompt": "Associe conceitos:\nESG Digital\nData Centers Verdes\nDireitos Digitais\nEconomia Circular\n( ) Eficiência energética em TI.( ) Garantia de privacidade e liberdade online.( ) Integração de tecnologia e sustentabilidade.( ) Reuso e reciclagem de dispositivos.",
+    "prompt": "Associe conceitos:\n1. ESG Digital\n2. Data Centers Verdes\n3. Direitos Digitais\n4. Economia Circular\n( ) Eficiência energética em TI.\n( ) Garantia de privacidade e liberdade online.\n( ) Integração de tecnologia e sustentabilidade.\n( ) Reuso e reciclagem de dispositivos.",
     "options": [
       "2, 3, 1, 4",
       "1, 3, 4, 2",
@@ -759,7 +759,7 @@ export const questions: Question[] = [
   },
   {
     "id": 64,
-    "prompt": "Associe empresas e iniciativas:\nTesla\nGoogle\nTOTVS\nMicrosoft\n( ) Programas de formação em tecnologia para jovens periféricos.( ) Carros elétricos e baterias sustentáveis.( ) Data centers movidos a energia renovável.( ) Carbono negativo até 2030.",
+    "prompt": "Associe empresas e iniciativas:\n1. Tesla\n2. Google\n3. TOTVS\n4. Microsoft\n( ) Programas de formação em tecnologia para jovens periféricos.\n( ) Carros elétricos e baterias sustentáveis.\n( ) Data centers movidos a energia renovável.\n( ) Carbono negativo até 2030.",
     "options": [
       "2, 3, 1, 4",
       "1, 3, 4, 2",
@@ -783,7 +783,7 @@ export const questions: Question[] = [
   },
   {
     "id": 66,
-    "prompt": "Verdadeiro ou Falso\n( ) IA regenerativa busca restaurar ecossistemas.( ) Hidrogênio verde depende de eletricidade renovável.( ) Blockchain garante rastreabilidade.( ) IoT é irrelevante para eficiência energética.( ) Direitos digitais incluem privacidade.",
+    "prompt": "Verdadeiro ou Falso\n( ) IA regenerativa busca restaurar ecossistemas.\n( ) Hidrogênio verde depende de eletricidade renovável.\n( ) Blockchain garante rastreabilidade.\n( ) IoT é irrelevante para eficiência energética.\n( ) Direitos digitais incluem privacidade.",
     "options": [
       "V, F, V, V, F",
       "F, V, V, F, V",
@@ -795,7 +795,7 @@ export const questions: Question[] = [
   },
   {
     "id": 67,
-    "prompt": "Verdadeiro ou Falso\n( ) O uso intensivo de IA sempre reduz o consumo energético em data centers.( ) O Brasil tem vantagem competitiva em energia renovável por sua matriz hídrica.( ) Cadeias globais digitais precisam integrar critérios ESG.( ) A União Europeia exige relatórios ESG padronizados de grandes empresas.( ) A inclusão digital é também uma questão de justiça social.",
+    "prompt": "Verdadeiro ou Falso\n( ) O uso intensivo de IA sempre reduz o consumo energético em data centers.\n( ) O Brasil tem vantagem competitiva em energia renovável por sua matriz hídrica.\n( ) Cadeias globais digitais precisam integrar critérios ESG.\n( ) A União Europeia exige relatórios ESG padronizados de grandes empresas.\n( ) A inclusão digital é também uma questão de justiça social.",
     "options": [
       "V, F, V, V, F",
       "F, V, V, F, V",
@@ -807,7 +807,7 @@ export const questions: Question[] = [
   },
   {
     "id": 68,
-    "prompt": "Verdadeiro ou Falso\n( ) O hidrogênio verde é considerado vetor energético para descarbonização industrial.( ) A LGPD no Brasil trata de governança climática.( ) O blockchain pode aumentar a confiança em cadeias de suprimentos sustentáveis.( ) A automação elimina todos os empregos em setores administrativos.( ) Programas de reskilling são resposta a desafios da automação.",
+    "prompt": "Verdadeiro ou Falso\n( ) O hidrogênio verde é considerado vetor energético para descarbonização industrial.\n( ) A LGPD no Brasil trata de governança climática.\n( ) O blockchain pode aumentar a confiança em cadeias de suprimentos sustentáveis.\n( ) A automação elimina todos os empregos em setores administrativos.\n( ) Programas de reskilling são resposta a desafios da automação.",
     "options": [
       "V, F, V, V, F",
       "F, V, V, F, V",
@@ -831,13 +831,13 @@ export const questions: Question[] = [
   },
   {
     "id": 70,
-    "prompt": "Verdadeiro ou Falso\n( ) A inteligência artificial regenerativa busca impacto positivo líquido, não apenas mitigação.( ) A acessibilidade digital é filantropia voluntária das empresas de TI.( ) O hidrogênio verde enfrenta barreiras de custo e escala.( ) ESG digital envolve tanto privacidade quanto eficiência energética em TI.( ) Cadeias de valor sustentáveis são indiferentes a pressões de investidores internacionais.",
+    "prompt": "Verdadeiro ou Falso\n( ) A inteligência artificial regenerativa busca impacto positivo líquido, não apenas mitigação.\n( ) A acessibilidade digital é filantropia voluntária das empresas de TI.\n( ) O hidrogênio verde enfrenta barreiras de custo e escala.\n( ) ESG digital envolve tanto privacidade quanto eficiência energética em TI.\n( ) Cadeias de valor sustentáveis são indiferentes a pressões de investidores internacionais.",
     "options": [
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>V, F, V, V, F",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>F, V, V, F, V",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>V, V, F, F, V",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>F, V, V, V, F",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:after=\"200\" w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>V, F, V, F, V"
+      "V, F, V, V, F",
+      "F, V, V, F, V",
+      "V, V, F, F, V",
+      "F, V, V, V, F",
+      "V, F, V, F, V"
     ],
     "answer": "a"
   },
@@ -999,43 +999,43 @@ export const questions: Question[] = [
   },
   {
     "id": 84,
-    "prompt": "Sobre o papel do Brasil e da tecnologia no contexto global, avalie:\n( ) O Brasil possui matriz energética mais limpa que a média mundial, em grande parte pela hidreletricidade.( ) O uso de fontes de energia renováveis é obrigatório para todas as empresas que atuam internacionalmente.( ) A automação baseada em IA pode gerar desemprego estrutural em setores administrativos.(  ) A inclusão digital é irrelevante para o eixo social do ESG.( ) Investidores internacionais pressionam empresas por práticas ambientais, sociais e de governança.",
+    "prompt": "Sobre o papel do Brasil e da tecnologia no contexto global, avalie:\n( ) O Brasil possui matriz energética mais limpa que a média mundial, em grande parte pela hidreletricidade.\n( ) O uso de fontes de energia renováveis é obrigatório para todas as empresas que atuam internacionalmente.\n( ) A automação baseada em IA pode gerar desemprego estrutural em setores administrativos.\n( ) A inclusão digital é irrelevante para o eixo social do ESG.\n( ) Investidores internacionais pressionam empresas por práticas ambientais, sociais e de governança.",
     "options": [
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>V, F, V, V, F",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>F, V, V, F, V",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>V, V, F, F, V",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>F, V, V, V, F",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:after=\"200\" w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>V, F, V, F, V"
+      "V, F, V, V, F",
+      "F, V, V, F, V",
+      "V, V, F, F, V",
+      "F, V, V, V, F",
+      "V, F, V, F, V"
     ],
     "answer": "e"
   },
   {
     "id": 85,
-    "prompt": "Sobre políticas de transição energética e economia verde:\n(  ) O cloud computing sustentável, por definição, sempre aumenta emissões globais.(  ) Políticas de precificação de carbono buscam internalizar externalidades ambientais.(  ) A inclusão digital é considerada também uma questão de justiça social.(  ) A LGPD, no Brasil, garante proteção aos dados pessoais dos cidadãos.(  ) O hidrogênio verde é obtido pela eletrólise da água com energia renovável.",
+    "prompt": "Sobre políticas de transição energética e economia verde:\n( ) O cloud computing sustentável, por definição, sempre aumenta emissões globais.\n( ) Políticas de precificação de carbono buscam internalizar externalidades ambientais.\n( ) A inclusão digital é considerada também uma questão de justiça social.\n( ) A LGPD, no Brasil, garante proteção aos dados pessoais dos cidadãos.\n( ) O hidrogênio verde é obtido pela eletrólise da água com energia renovável.",
     "options": [
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>V, F, V, V, F",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>F, V, V, F, V",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>V, V, F, F, V",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>F, V, V, V, V",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:after=\"200\" w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>V, F, V, F, V"
+      "V, F, V, V, F",
+      "F, V, V, F, V",
+      "V, V, F, F, V",
+      "F, V, V, V, V",
+      "V, F, V, F, V"
     ],
     "answer": "d"
   },
   {
     "id": 86,
-    "prompt": "Analise as afirmações sobre indicadores ambientais e ESG:\n(  ) O PUE mede a eficiência energética de data centers, sendo ideal quanto mais próximo de 1,0.(  ) ODS 7 “Energia Acessível e limpa” busca aumentar a participação de energias sustentáveis na matriz energética global.(  ) ESG é considerado por especialistas apenas como um modismo passageiro.(  ) O Green IT também busca prolongar a vida útil de hardware por meio de design sustentável.(  ) O Acordo de Paris não exige compromissos nacionais de redução de emissões.",
+    "prompt": "Analise as afirmações sobre indicadores ambientais e ESG:\n( ) O PUE mede a eficiência energética de data centers, sendo ideal quanto mais próximo de 1,0.\n( ) ODS 7 “Energia Acessível e limpa” busca aumentar a participação de energias sustentáveis na matriz energética global.\n( ) ESG é considerado por especialistas apenas como um modismo passageiro.\n( ) O Green IT também busca prolongar a vida útil de hardware por meio de design sustentável.\n( ) O Acordo de Paris não exige compromissos nacionais de redução de emissões.",
     "options": [
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>V, F, V, V, F",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>F, V, V, F, V",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>V, V, F, V, F",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>F, V, V, V, F",
-      "<w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:between w:val=\"nil\"/></w:pBdr><w:spacing w:after=\"200\" w:line=\"276\" w:lineRule=\"auto\"/><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Aptos\" w:eastAsia=\"Aptos\" w:hAnsi=\"Aptos\" w:cs=\"Aptos\"/><w:color w:val=\"000000\"/><w:sz w:val=\"28\"/><w:szCs w:val=\"28\"/></w:rPr><w:t>V, F, V, F, V"
+      "V, F, V, V, F",
+      "F, V, V, F, V",
+      "V, V, F, V, F",
+      "F, V, V, V, F",
+      "V, F, V, F, V"
     ],
     "answer": "c"
   },
   {
     "id": 87,
-    "prompt": "Cada desafio ambiental exige respostas específicas. Associe corretamente o problema à solução mais adequada em ESG Ambiental:\nE-waste (resíduos eletrônicos)\nDesmatamento\nEmissões de CO₂\nEscassez de água\n(  ) Expansão de fontes renováveis e eletrificação da matriz energética.(  ) Programas de certificação florestal e rastreabilidade de cadeias.(  ) Reciclagem e logística reversa de equipamentos eletrônicos.(  ) Reuso e aproveitamento de água em data centers e indústrias.",
+    "prompt": "Cada desafio ambiental exige respostas específicas. Associe corretamente o problema à solução mais adequada em ESG Ambiental:\n1. E-waste (resíduos eletrônicos)\n2. Desmatamento\n3. Emissões de CO₂\n4. Escassez de água\n( ) Expansão de fontes renováveis e eletrificação da matriz energética.\n( ) Programas de certificação florestal e rastreabilidade de cadeias.\n( ) Reciclagem e logística reversa de equipamentos eletrônicos.\n( ) Reuso e aproveitamento de água em data centers e indústrias.",
     "options": [
       "2, 1, 3, 4",
       "1, 3, 4, 2",
@@ -1047,7 +1047,7 @@ export const questions: Question[] = [
   },
   {
     "id": 88,
-    "prompt": "A avaliação de desempenho ambiental em tecnologia utiliza indicadores específicos para mensurar impactos. Associe cada métrica a sua função principal:\nPUE (Power Usage Effectiveness)\nLCA (Life Cycle Assessment)\nCarbon Intensity\nWUE (Water Usage Effectiveness)\n( ) Eficiência energética em data centers.( ) Avaliação de impactos ambientais ao longo do ciclo de vida de produtos.( ) Relação entre energia consumida e água utilizada para resfriamento.( ) Emissões de carbono por unidade de energia gerada.",
+    "prompt": "A avaliação de desempenho ambiental em tecnologia utiliza indicadores específicos para mensurar impactos. Associe cada métrica a sua função principal:\n1. PUE (Power Usage Effectiveness)\n2. LCA (Life Cycle Assessment)\n3. Carbon Intensity\n4. WUE (Water Usage Effectiveness)\n( ) Eficiência energética em data centers.\n( ) Avaliação de impactos ambientais ao longo do ciclo de vida de produtos.\n( ) Relação entre energia consumida e água utilizada para resfriamento.\n( ) Emissões de carbono por unidade de energia gerada.",
     "options": [
       "2, 1, 3, 4",
       "1, 3, 4, 2",
@@ -1071,7 +1071,7 @@ export const questions: Question[] = [
   },
   {
     "id": 90,
-    "prompt": "Grandes empresas de tecnologia vêm adotando compromissos públicos em ESG. Essas iniciativas não só reduzem impactos ambientais, mas também fortalecem sua reputação perante consumidores e investidores. Associe corretamente cada empresa à sua prática mais reconhecida:\nGoogle\nMicrosoft\nApple\nNubank\n(  ) Inclusão financeira digital e neutralidade de carbono, conectando tecnologia e impacto social.(  ) Desenvolvimento de robôs para desmontagem de smartphones, recuperando metais raros.(  ) Meta de se tornar “carbono negativo” até 2030.(  ) Operação de data centers movidos 100% a energia renovável desde 2017.",
+    "prompt": "Grandes empresas de tecnologia vêm adotando compromissos públicos em ESG. Essas iniciativas não só reduzem impactos ambientais, mas também fortalecem sua reputação perante consumidores e investidores. Associe corretamente cada empresa à sua prática mais reconhecida:\n1. Google\n2. Microsoft\n3. Apple\n4. Nubank\n( ) Inclusão financeira digital e neutralidade de carbono, conectando tecnologia e impacto social.\n( ) Desenvolvimento de robôs para desmontagem de smartphones, recuperando metais raros.\n( ) Meta de se tornar “carbono negativo” até 2030.\n( ) Operação de data centers movidos 100% a energia renovável desde 2017.",
     "options": [
       "2, 1, 3, 4",
       "1, 3, 4, 2",

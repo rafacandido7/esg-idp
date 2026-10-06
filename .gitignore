@@ -21,4 +21,5 @@ coverage/
 Thumbs.db
 .idea/
 .vscode/
-~$*.docx
+# O Word é usado somente na preparação local das questões
+*.docx
